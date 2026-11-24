@@ -1,5 +1,5 @@
 ﻿MonitorBridge.App
-
+1.0.0.0
 
 winexe
 C#
@@ -12,8 +12,8 @@ TRACE;DEBUG;NET;NET10_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_O
 C:\Users\guigu\MonitorBridge\MonitorBridge.App\App.xaml
 11407045341
 
-4839429748
-2061815282281
+91086608063
+21439514662
 MainWindow.xaml;
 
 False
