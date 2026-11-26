@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MonitorBridge.App")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c6f28c26551a7fdcff01faab27916927d09b6dfa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2f334cfa985610c442a47d7652cf4a17ca2670b")]
 [assembly: System.Reflection.AssemblyProductAttribute("MonitorBridge.App")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MonitorBridge.App")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

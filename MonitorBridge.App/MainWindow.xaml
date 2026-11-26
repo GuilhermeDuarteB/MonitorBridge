@@ -19,7 +19,8 @@
         </Grid.RowDefinitions>
 
         <!-- Header -->
-        <Grid Grid.Row="0" Margin="0,0,0,24">
+        <Grid Grid.Row="0"
+              Margin="0,0,0,24">
             <StackPanel>
                 <TextBlock Text="MonitorBridge"
                            FontSize="28"
@@ -43,6 +44,7 @@
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
                     <ColumnDefinition Width="Auto"/>
                     <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
@@ -79,6 +81,13 @@
                         Foreground="White"
                         BorderThickness="0"
                         Click="StartStop_Click"/>
+
+                <Button Grid.Column="3"
+                        Content="Test Mouse"
+                        Width="110"
+                        Height="36"
+                        Margin="12,22,0,0"
+                        Click="TestMouse_Click"/>
             </Grid>
         </Border>
 
@@ -108,7 +117,11 @@
 
                     <Grid>
                         <Image x:Name="PreviewImage"
-                               Stretch="Uniform"/>
+                               Stretch="Fill"
+                               Focusable="True"
+                               MouseDown="PreviewImage_MouseDown"
+                               MouseWheel="PreviewImage_MouseWheel"
+                               MouseMove="PreviewImage_MouseWheel"/>
 
                         <StackPanel x:Name="EmptyState"
                                     HorizontalAlignment="Center"
